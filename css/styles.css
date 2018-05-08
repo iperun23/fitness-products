@@ -1,3 +1,9 @@
+/*      Colors used: 
+deepskyblue
+
+*/
+
+
 /* ---------- Universal Elements---------- */
 
 * {
@@ -5,14 +11,19 @@
     padding: 0;
 }
 
-
+button {
+    cursor: pointer;
+}
 /*---------- Navigation---------- */
 .navbar {
     padding: 22px 22px;
-    background-color: #34495e;
+    background-color: #000;
   
 }
-
+.navbar li {
+    padding-left: 17px;
+    
+}
 .navbar a {
     color: white;
     text-transform: uppercase;
@@ -20,6 +31,7 @@
     letter-spacing: 1px;
     font-size: 14px;
     transition: all .2s ease-in;
+    
 }
 .navbar a:hover {
     color: deepskyblue;
@@ -38,4 +50,79 @@
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/*---------- Main ---------- */
+.location {
+    border: 1px solid white;
+    border-radius: 75px;
+}
+.location:hover {
+    border: 1px solid deepskyblue;
+}
+a.navbar-brand {
+    font-size: 23px;
+}
+/*---------- Slider Section ---------- */
+
+.slider {
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/slider-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+}
+
+.slider-overlay {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slide-content {
+    position: absolute;
+    top: 39%;
+    width: 100%;
+}
+
+.cta-div {
+    margin-top: 30px;
+}
+.icons{
+    padding-top: 300px;
+}
+
+.icons,
+.social-networks {
+    font-size: 30px;
+    margin-righT: 7px;
+}
+
+.btn1 button,
+.btn2 button {
+    padding: 10px 20px;
+    background: rgba(0, 0, 0, .59);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    border: 2px solid white;
+    transition: all .5s ease-in;
+    margin-right: -6px;
+}
+
+.btn1 button {
+    border-top-left-radius: 15px;
+}
+.btn2 button {
+    border-bottom-right-radius: 15px;
+}
+
+.btn1 button:hover {
+    color: white;
+    background: deepskyblue;
+    border-color: deepskyblue;
+}
+
+.btn2 button:hover {
+    background: orangered;
+    border-color: orangered;
+}
