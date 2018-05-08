@@ -17,7 +17,7 @@ button {
 /*---------- Navigation---------- */
 .navbar {
     padding: 22px 22px;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, .65);
   
 }
 .navbar li {
@@ -85,15 +85,25 @@ a.navbar-brand {
 
 .cta-div {
     margin-top: 30px;
+    padding-top: 75px;
 }
-.icons{
-    padding-top: 300px;
+
+
+.icons {
+    padding-top: 150px;
+}
+
+.fa-apple,
+.fa-android,
+.fa-windows {
+    border: 1px solid white;
+    padding: 3px 7px;
+    background:rgba(0, 191, 255, .60);
 }
 
 .icons,
 .social-networks {
     font-size: 30px;
-    margin-righT: 7px;
 }
 
 .btn1 button,
@@ -127,7 +137,74 @@ a.navbar-brand {
     border-color: orangered;
 }
 
+.social-networks a {
+    border: 1px solid deepskyblue;
+    padding: 5px 15px;
+    color:deepskyblue;
+    width: 35px;
+    height: 35px;
+    transition: all .2s ease-in;
+    background-color: rgba(255, 255, 255, .75);
+}
 
+
+.social-networks a:hover {
+    text-decoration: none;
+    background-color: deepskyblue;
+    color:white;
+    border: 1px solid white;
+}
+
+.text,
+.slider .typed-cursor {
+    display: inline;
+    font-size: 35px;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, .75);
+}
+/* Keyframes for blink */
+.typed-cursor {
+    opacity: 1;
+    animation: blink .7s infinite;
+    -webkit-animation: blink .7s infinite;
+    -moz-animation: blink .7s infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.primary {
+    color: deepskyblue;
+}
 
 
 
@@ -136,7 +213,8 @@ a.navbar-brand {
 /* ----------MEDIA QUERIES----------*/
 
 @media only screen and (max-width: 991px) {
-    .location {
+    .location,
+    .location:hover {
         border: none;
     }
 }
