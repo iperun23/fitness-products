@@ -17,8 +17,8 @@ button {
 /*---------- Navigation---------- */
 .navbar {
     padding: 22px 22px;
-    background-color: rgba(0, 0, 0, .65);
-  
+    background-color: rgba(0, 0, 0, .60);
+    transition: all .5s ease-in;
 }
 .navbar li {
     padding-left: 17px;
@@ -60,6 +60,12 @@ button {
 a.navbar-brand {
     font-size: 23px;
 }
+/*----------Sticky Navigation---------- */
+
+.secondary {
+    background-color: rgba(0, 0, 0, .95); 
+}
+
 /*---------- Slider Section ---------- */
 
 .slider {
@@ -154,7 +160,9 @@ a.navbar-brand {
     color:white;
     border: 1px solid white;
 }
-
+.social-networks {
+    padding-top: 25px;
+}
 .text,
 .slider .typed-cursor {
     display: inline;
