@@ -214,8 +214,79 @@ a.navbar-brand {
     color: deepskyblue;
 }
 
+/* ----------Reviews Section----------*/
+
+.review-area {
+    margin-top: 20px;
+}
 
 
+.review-wrap {
+    box-shadow: 0 0 10px rgb(0, 191, 255, .8);
+    padding: 25px 35px;
+    overflow: hidden;
+    position: relative;
+    transition: all .5s ease 0s;
+    margin-top: 20px;
+    z-index: 9;
+}
+
+.review-wrap::before,
+.review-wrap::after {
+    content: "";
+    height:300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all .5s;
+    opacity: 0;
+    background: rgb(0, 191, 255);
+}
+
+.review-wrap::before {
+    top: -125px;
+    left: 100%;
+}
+.review-wrap:hover:before {
+    left: -125px;
+    opacity: 1;
+}
+
+.review-wrap::after {
+    right: 100%;
+    bottom: -125px;
+}
+
+.review-wrap:hover:after {
+    right: -125px;
+    opacity: 1;
+}
+
+.review-wrap:hover {
+   color: white;
+}
+
+.review-wrap:h3 {
+    color: white;
+}
+
+.review-wrap:hover h3:after {
+    background-color: white;
+}
+
+.review-icon {
+    margin-bottom: 5px;
+}
+
+.review-wrap h3 {
+    padding-bottom: 15px;
+}
+
+.review-wrap p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
 
 
 /* ----------MEDIA QUERIES----------*/
