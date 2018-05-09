@@ -7,7 +7,15 @@ jQuery(document).ready(function() {
             perturbance: .03,
             interactive: true
         });
-
+        //Sticky Navigation 
+        $(window).scroll(function() {
+            var top = $(window).scrollTop();
+            if (top >= 200) {
+                $(".navbar").addClass('secondary');
+            } else if ($(".navbar").hasClass('secondary')) {
+                $(".navbar").removeClass('secondary');
+            }
+        });
       
 
 });
@@ -20,3 +28,6 @@ let options = {
   }
   
 let typed = new Typed(".text", options);
+
+
+
