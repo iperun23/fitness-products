@@ -16,7 +16,14 @@ jQuery(document).ready(function() {
                 $(".navbar").removeClass('secondary');
             }
         });
-      
+      //Food Gallery image pop up using magnific popup
+        $('.gallery').magnificPopup({
+            delegate: 'a', // child items selector, by clicking on it popup will open
+            type: 'image',
+            gallery: {
+                enabled: true
+              }
+          });
 
 });
 
