@@ -289,11 +289,48 @@ a.navbar-brand {
 }
 
 
+/* ----------Food Gallery Section----------*/
+
+.gallery {
+    margin-top: 60px;
+}
+
+.no-gutters [class*=col-] {
+    padding:0;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: transform 0.2s ease;
+    width: 100%;
+
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.4);
+    cursor: zoom-in;
+}
+
 /* ----------MEDIA QUERIES----------*/
 
 @media only screen and (max-width: 991px) {
     .location,
     .location:hover {
         border: none;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .img-wrapper img {
+        height: 450px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .img-wrapper img,
+    .gallery-title {
+        display:none;
     }
 }
