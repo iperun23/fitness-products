@@ -17,7 +17,7 @@ button {
 /*---------- Navigation---------- */
 .navbar {
     padding: 22px 22px;
-    background-color: rgba(0, 0, 0, .60);
+    background-color: rgba(0, 0, 0, .95);
     transition: all .5s ease-in;
 }
 .navbar li {
@@ -63,7 +63,7 @@ a.navbar-brand {
 /*----------Sticky Navigation---------- */
 
 .secondary {
-    background-color: rgba(0, 0, 0, .95); 
+    background-color: rgba(0, 0, 0, .60); 
 }
 
 /*---------- Slider Section ---------- */
@@ -306,13 +306,42 @@ a.navbar-brand {
 .img-wrapper img {
     transition: transform 0.2s ease;
     width: 100%;
-
 }
 
 .img-wrapper img:hover {
     transform: scale(1.4);
     cursor: zoom-in;
 }
+
+/* ----------Fitness-Goals SECTION----------*/
+.fitness-goal h2 {
+    margin-top: 50px;
+}
+
+.goal-member {
+    margin: 0px 15px;
+}
+
+.goal-info {
+    padding: 10px 0px 30px 0;
+}
+
+.goal-name {
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 2px;
+}
+
+.goal-designation {
+    color: deepskyblue;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
 
 /* ----------MEDIA QUERIES----------*/
 
