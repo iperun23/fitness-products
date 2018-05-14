@@ -342,6 +342,46 @@ a.navbar-brand {
     text-transform: capitalize;
 }
 
+/* ----------Testimonals SECTION----------*/
+
+.carousel-inner img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 3px solid white;
+    padding: 5px;
+}
+
+.testimonial {
+    background-image: url(../img/test.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    color: white;
+    margin-top: 20px;
+}
+
+
+#parallax-curtain {
+    height: 100%;
+    width:100%;
+    background: rgb(0, 191, 255);
+    background: rgba(0, 191, 255, .55);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.carousel-indicators {
+    top: 305px;
+}
+
+.border-bottom {
+    width: 150px;
+    height: 2px;
+    margin: 0 auto;
+    background-color:white;
+}
+
 
 /* ----------MEDIA QUERIES----------*/
 
