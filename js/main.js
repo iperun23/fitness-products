@@ -3,10 +3,10 @@
 jQuery(document).ready(function() {
     "use strict"
     // Ripple jQuery effect for slider
-        $('.slider').ripples({
-            dropRadius: 15,
-            perturbance: .01
-        });
+        // $('.slider').ripples({
+        //     dropRadius: 15,
+        //     perturbance: .01
+        // });
         //Collapse Navbar after clicking it 
         $('.navbar-nav>li>a').on('click', function(){
             $('.navbar-collapse').collapse('hide');
