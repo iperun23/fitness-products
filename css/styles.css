@@ -454,6 +454,7 @@ a.navbar-brand {
     .img-wrapper img {
         height: 450px;
     }
+   
 }
 @media only screen and (max-width: 576px) {
     .img-wrapper img,
@@ -461,5 +462,8 @@ a.navbar-brand {
     .faq,
     .nav-remove {
         display:none;
+    }
+    .slider {
+        background: linear-gradient(to top,rgb(254, 1, 1), rgb(0, 255, 249));
     }
 }
