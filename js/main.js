@@ -7,6 +7,11 @@ jQuery(document).ready(function() {
             perturbance: .03,
             interactive: true
         });
+        //Collapse Navbar after clicking it 
+        $('.navbar-nav>li>a').on('click', function(){
+            $('.navbar-collapse').collapse('hide');
+        });
+
         //Sticky Navigation 
         $(window).scroll(function() {
             var top = $(window).scrollTop();
