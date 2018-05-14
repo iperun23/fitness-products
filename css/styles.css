@@ -101,9 +101,9 @@ a.navbar-brand {
     padding-top: 150px;
 }
 
-.fa-apple,
-.fa-android,
-.fa-windows {
+.icons .fa-apple,
+.icons .fa-android,
+.icons .fa-windows {
     border: 1px solid white;
     padding: 3px 7px;
     background:rgba(0, 191, 255, .60);
@@ -413,9 +413,33 @@ a.navbar-brand {
     background: white;
 }
 
+/* ----------Counter Stats SECTION----------*/
 
+.stat {
+    background-image: url(../img/stat-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    padding-top: 180px;
+    padding-bottom: 200px;
+    color: black;
+    margin-top: 40px;
+}
 
+.stat i {
+    font-size: 80px;
+}
 
+.stat-items h2{
+    font-weight: bolder;
+    font-size: 42px;
+    color: deepskyblue;
+}
+
+.stat-items p {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
 
 /* ----------MEDIA QUERIES----------*/
 
