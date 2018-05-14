@@ -1,7 +1,8 @@
 
-// Ripple jQuery effect for slider
+
 jQuery(document).ready(function() {
     "use strict"
+    // Ripple jQuery effect for slider
         $('.slider').ripples({
             dropRadius: 20,
             perturbance: .03,
@@ -47,9 +48,12 @@ jQuery(document).ready(function() {
                 items:3
             }
         }
-
-        });
-    
+    });
+       //Counter Up Stats
+        $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
 
 });
 
