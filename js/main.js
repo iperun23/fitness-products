@@ -4,8 +4,8 @@ jQuery(document).ready(function() {
     "use strict"
     // Ripple jQuery effect for slider
         $('.slider').ripples({
-            dropRadius: 20,
-            perturbance: .03,
+            dropRadius: 15,
+            perturbance: .01,
             interactive: true
         });
         //Collapse Navbar after clicking it 
