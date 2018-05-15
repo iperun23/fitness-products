@@ -47,7 +47,7 @@ jQuery(document).ready(function() {
                 items:3
             }
         }
-    });
+        });
        //Counter Up Stats
         $('.counter').counterUp({
                 delay: 10,
@@ -67,9 +67,13 @@ jQuery(document).ready(function() {
                 window.location.hash = hash;
             });
             } 
-  }); 
+         }); 
 
+         new WOW().init();
+        
 });
+
+
 
 // Writing over the slider with text using js
 let options = {
@@ -79,6 +83,8 @@ let options = {
   }
   
 let typed = new Typed(".text", options);
+
+
 
 
 
