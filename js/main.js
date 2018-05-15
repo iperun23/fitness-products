@@ -53,6 +53,21 @@ jQuery(document).ready(function() {
                 delay: 10,
                 time: 1000
             });
+        //Smooth Scroll
+        $("a").on('click', function(event) {
+            if (this.hash !== "") {
+    
+            event.preventDefault();
+            var hash = this.hash;
+            
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+        
+                window.location.hash = hash;
+            });
+            } 
+  }); 
 
 });
 
