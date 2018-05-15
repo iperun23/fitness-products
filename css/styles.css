@@ -458,6 +458,25 @@ a.navbar-brand {
 }
 
 
+.contact button.btn:hover {
+    background-color: black;
+}
+/* ----------Footer ----------*/
+
+.footer-area {
+    margin-top: 25px;
+    background: linear-gradient(to right,rgb(254, 1, 1), rgb(0, 255, 249));
+}
+.email-to {
+    padding-top: 15px;
+    font-size: 20px;
+}
+.email-to a {
+    color: black;
+}
+.email-to a:hover {
+    color: deepskyblue;
+}
 
 /* ----------MEDIA QUERIES----------*/
 
