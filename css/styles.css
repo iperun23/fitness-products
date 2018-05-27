@@ -493,7 +493,7 @@ a.navbar-brand {
    
 }
 @media only screen and (max-width: 576px) {
-    .img-wrapper img,
+    .img-wrapper a,
     .gallery-title,
     .faq,
     .nav-remove {
