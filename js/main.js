@@ -68,9 +68,13 @@ jQuery(document).ready(function() {
             });
             } 
          }); 
-
+         // WoW animate scroll down effect
          new WOW().init();
         
+         //Lazy Load
+         $(function() {
+            $('.lazy').lazy();
+        });
 });
 
 
